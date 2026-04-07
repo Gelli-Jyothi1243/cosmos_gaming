@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { overflow: hidden; font-family: 'Inter', sans-serif; }
+
+/* pixel-crisp rendering for the game world */
+.game-world * { image-rendering: pixelated; }
